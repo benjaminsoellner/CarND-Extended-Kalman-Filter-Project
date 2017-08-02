@@ -39,5 +39,5 @@ The project can also be built with Microsoft Visual Studio [according to a usefu
 
 * [``README.md``](README.md), [``readme.html``](readme.html): you are reading it! :)
 * [``src/FusionEKF.cpp``](src/FusionEKF.cpp), [``src/FusionEKF.h``](src/FusionEKF.cpp): Kalman filter usage for lidar and radar
-* [``src/kalman_filter.cpp``](src/kalman_filter.cpp), [``src/kalman_filter.h``](src/src/kalman_filter.h): Core Kalman filter logic
+* [``src/kalman_filter.cpp``](src/kalman_filter.cpp), [``src/kalman_filter.h``](src/kalman_filter.h): Core Kalman filter logic
 * [``src/tools.cpp``](src/tools.cpp), [``src/tools.h``](src/tools.h): tools to compute Jacobian matrices and RMSE values
