@@ -60,7 +60,6 @@ void KalmanFilter::UpdateEKF(const VectorXd &z) {
 	hx << rho, phi, rho_dot;
 
 	VectorXd y = z - hx;
-	// normalizing the angle
 	y[1] = atan2(sin(y[1]), cos(y[1]));
 
 	// Using Jacobian H_ here
